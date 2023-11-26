@@ -16,6 +16,11 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JS (change the version number based on the latest available) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
   <link rel="stylesheet" href="{% static "Visa/bootstrap.min.css"  %}">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -42,10 +47,10 @@
       <div class="collapse navbar-collapse text-center" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#About">About &nbsp; &nbsp;</a>
+            <a class="nav-link" href="#gallery">Countries &nbsp; &nbsp;</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gallery">Countries &nbsp; &nbsp;</a>
+            <a class="nav-link" href="#About">About &nbsp; &nbsp;</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Contacts">Contacts &nbsp; &nbsp;</a>
@@ -55,11 +60,6 @@
     </div>
   </nav>
   <div class="wallpaper-home" style="margin-left:0%; position: relative;">
-    <img src="{% static "Visa/cont.jpeg" %}" height="590">
-    <br>
-    <br>
-    <br>
-    <br>
     {% block content %}{% endblock %}
   </div>
   

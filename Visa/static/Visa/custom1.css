@@ -18,3 +18,19 @@
     margin-left: 0;
     margin-right: 0;
 }
+
+.text{
+    position: relative;
+    bottom: 240px;
+    margin-left: 43%;
+}
+
+.galleryimg{
+    opacity: 0.5;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.galleryimg:hover{
+    transform: scale(1.1);
+}

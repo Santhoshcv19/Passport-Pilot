@@ -3,28 +3,33 @@
 {% load static %}
 
 {% block content %}
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static "Visa/cont.jpeg" %}" class="d-block w-100" alt="Slide 1" height="590">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static "Visa/Logo.png" %}" class="d-block w-100" alt="Slide 2" height="590">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static "Visa/cont.jpeg" %}" class="d-block w-100" alt="Slide 3" height="590">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
 
-<h1 id="About">About</h1>
-<p>
-  Welcome to Passport Pilot, your ultimate travel companion! Passport Pilot is your go-to destination for comprehensive travel information on countries around the world. Whether you're planning your next vacation or embarking on a business trip, our website provides you with all the essential details you need for a hassle-free journey.
-</p>
-<p>
-  Discover the world's top destinations with our curated guides, highlighting the best places to visit and must-see attractions. Explore a wide range of accommodation options, from luxurious hotels to cozy bed and breakfasts, ensuring you find the perfect place to stay that suits your preferences and budget.
-</p>
-<p>
-  But Passport Pilot goes beyond being a travel guide. We offer detailed visa and airport procedures for each country, simplifying the often complex process of travel documentation and airport navigation. Whether you need a visa, want to know about customs procedures, or require information about entry requirements, our comprehensive resources have got you covered.
-</p>
-<p>
-  Flying with a specific airline? Find out about luggage allowances, baggage policies, and other important airline-specific information to ensure you're well-prepared for your journey. We provide you with all the necessary details to make your air travel experience smoother.
-</p>
-<p>
-  At Passport Pilot, we are committed to making your travel experience enjoyable and stress-free. Our mission is to empower travelers with the knowledge they need to plan their trips with confidence. Explore the world with ease, knowing that Passport Pilot has your back every step of the way.
-</p>
-<p>
-  Start your adventure today by selecting your destination and accessing a wealth of travel information right at your fingertips. Bon voyage!
-</p>
-<br>
-<br>
 
 <h1 id="gallery">Countries</h1>
 <div class="row remove-negative-margin">
@@ -48,6 +53,34 @@
 <br>
 <br>
 <br>
+<h1 id="About">About</h1>
+<p>
+  Welcome to Passport Pilot, your ultimate travel companion! Passport Pilot is your go-to destination for comprehensive travel information on countries around the world. Whether you're planning your next vacation or embarking on a business trip, our website provides you with all the essential details you need for a hassle-free journey.
+</p>
+<p>
+  Discover the world's top destinations with our curated guides, highlighting the best places to visit and must-see attractions. Explore a wide range of accommodation options, from luxurious hotels to cozy bed and breakfasts, ensuring you find the perfect place to stay that suits your preferences and budget.
+</p>
+<p>
+  But Passport Pilot goes beyond being a travel guide. We offer detailed visa and airport procedures for each country, simplifying the often complex process of travel documentation and airport navigation. Whether you need a visa, want to know about customs procedures, or require information about entry requirements, our comprehensive resources have got you covered.
+</p>
+<p>
+  Flying with a specific airline? Find out about luggage allowances, baggage policies, and other important airline-specific information to ensure you're well-prepared for your journey. We provide you with all the necessary details to make your air travel experience smoother.
+</p>
+<p>
+  At Passport Pilot, we are committed to making your travel experience enjoyable and stress-free. Our mission is to empower travelers with the knowledge they need to plan their trips with confidence. Explore the world with ease, knowing that Passport Pilot has your back every step of the way.
+</p>
+<p>
+  Start your adventure today by selecting your destination and accessing a wealth of travel information right at your fingertips. Bon voyage!
+</p>
+<br>
+<br>
+<div class="Gallery">
+  <img class="galleryimg" src="{% static "Visa/collagepass.jpg" %}">
+  <div class="text"><span><h1>Gallery</h1></span></div>
+</div>
+<br>
+<br>
+</div>
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-primary text-muted" id="Contacts">
   <!-- Section: Social media -->
@@ -60,22 +93,16 @@
 
     <!-- Right -->
     <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
+      <a href="https://github.com/Santhoshcv19" class="me-4 text-reset" target="_blank" style="text-decoration: none;">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
+      <a href="https://github.com/Santhoshcv19" class="me-4 text-reset" target="_blank" style="text-decoration: none;">
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="" class="me-4 text-reset">
+      <a href="https://github.com/Santhoshcv19" class="me-4 text-reset" target="_blank" style="text-decoration: none;">
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href="https://github.com/Santhoshcv19" class="me-4 text-reset" target="_blank">
+      <a href="https://github.com/Santhoshcv19" class="me-4 text-reset" target="_blank" style="text-decoration: none;">
         <i class="fab fa-github"></i>
       </a>
     </div>
